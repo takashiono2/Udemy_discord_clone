@@ -34,8 +34,6 @@
 .sidebar .sidebarRight .sidebarTop {
   color: #ffffff;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 20px;
 }
 .sidebar .sidebarRight .sidebarChannels {
@@ -44,8 +42,6 @@
 .sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
   color: white;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 5px;
 }
 .sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {

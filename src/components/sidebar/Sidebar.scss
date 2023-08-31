@@ -33,18 +33,18 @@
   .sidebarRight {
     background-color: #2b2d33;
     width: 300px;
+    position: relative;
 
     .sidebarTop {
       color: #ffffff;
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
       padding: 20px;
     }
 
     .sidebarChannels {
       padding: 13px;
-
       .sidebarChannelsHeader {
         color: white;
         display: flex;
@@ -58,6 +58,43 @@
           cursor: pointer;
         }
       }
+    }
+
+    .sidebarFooter{
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 93%;
+      padding-bottom: 10px;
+      border-top: 1px solid #686a6e;
+      padding-top: 10px;
+      margin-left: -3px;
+
+        .sidebarAccount{
+          display: flex;
+          align-items: center;
+
+          img{
+            width: 60px;
+          }
+
+          .accoountName{
+            margin-left: 5px;
+          }
+          h4{
+            color: white;
+            font-weight: 500;
+          }
+          span{
+            color: #686a6e;
+          }
+        }
+        .sidebarVoice{
+          display: flex;
+          align-items: center;
+          color: #686a6e;
+        }
     }
   }
 }
