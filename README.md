@@ -26,11 +26,15 @@
 
 </details>
 
-<!-- <details> -->
-<!-- <summary>セクション4: 【Discordクローン】バックエンド開発編（Firebase＆Redux実装編） </summary> -->
+<details>
+<summary>セクション4: 【Discordクローン】バックエンド開発編（Firebase＆Redux実装編） </summary>
 
-<!-- | NO | 内容 |
+| NO | 内容 |
 | ---- | ---- |
-| 26. |  | -->
+| 26. | Firebaseの準備をはじめよう |
+| 27. | Firebaseの初期設定をはじめよう |
+| 28. | ReduxをTypescriptで用意してみよう |
+| 29. | StoreとuserSliceを準備してみよう |
+<!-- | 30. | ユーザーの初期状態をTypescriptで準備してみよう | -->
 
-<!-- </details> -->
+</details>
