@@ -1,0 +1,52 @@
+.sidebar {
+  display: flex;
+  flex: 0.35;
+  height: 100vh;
+  background-color: #33363d;
+}
+.sidebar .sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1c20;
+  padding: 7px 15px;
+}
+.sidebar .sidebarLeft .serverIcon {
+  width: 55px;
+  height: 55px;
+  background-color: #33363d;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  position: relative;
+}
+.sidebar .sidebarLeft .serverIcon img {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidebar .sidebarRight {
+  background-color: #2b2d33;
+  width: 300px;
+}
+.sidebar .sidebarRight .sidebarTop {
+  color: #ffffff;
+  display: flex;
+  padding: 20px;
+}
+.sidebar .sidebarRight .sidebarChannels {
+  padding: 13px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
+  color: white;
+  display: flex;
+  margin-top: 5px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {
+  display: flex;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarAddIcon {
+  cursor: pointer;
+}/*# sourceMappingURL=sidebar.css.map */
