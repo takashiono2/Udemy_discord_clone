@@ -1,6 +1,8 @@
+//storeを生成する
 import { configureStore } from "@reduxjs/toolkit";
-import userReducer from '../features/userSlice';
+import userReducer from "../features/userSlice";
 
 export const store = configureStore({
   reducer: userReducer,
-});
+
+})

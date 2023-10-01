@@ -5,7 +5,7 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
 
-
+//storeにアクセスするため、Providerコンポーネントを設定
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
