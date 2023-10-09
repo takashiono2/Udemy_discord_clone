@@ -4,11 +4,12 @@ import Sidebar from './components/sidebar/Sidebar';
 import Chat from './components/chat/Chat';
 import './components/login/Login.scss';
 import Login from './components/login/Login';
-// import { useSlector } from 'react-redux';
+import { useAppSelector } from './app/hooks';
 
 
 function App() {
-  const user = null;
+  const user = useAppSelector((state)=>state.user);
+
   return (
     <div className="App">
       { user ? (
