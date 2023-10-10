@@ -6,9 +6,9 @@ import './components/login/Login.scss';
 import Login from './components/login/Login';
 import { useAppSelector } from './app/hooks';
 
-
+//useAppSelectorとして新たに型定義し、App.tsxで使用
 function App() {
-  const user = useAppSelector((state)=>state.user);
+  const user = useAppSelector((state) => state.user);
 
   return (
     <div className="App">
