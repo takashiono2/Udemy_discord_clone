@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+## 【Discordクローン開発】React/Redux/Typescript/Firebaseで作るアプリ開発実践講座
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+<summary>セクション3: 【Discordクローン】フロントエンド開発編（サイドバー＆チャット欄実装編）</summary>
 
-## Available Scripts
+| NO | 内容 |
+| ---- | ---- |
+| 8. | ReactとTypescriptでDiscordクローン開発用プロジェクトを作成しよう |
+| 9. | CSSのスタイリングはSassで記述してみよう |
+| 10. | サイドバーコンポーネントを作成してみよう |
+| 11. | サイドバーの中身のHTMLとCSSの記述をはじめよう |
+<!-- | 12. | 【補足】ブラウザ上の色を取得できるグーグル拡張機能の紹介|
+| 13. | MaterialUIをインストールしてアイコンを利用してみよう |
+| 14. | Discordチャンネルのヘッダーを記述してみよう |
+| 15. | Discordチャンネルリストを作成してみよう |
+| 16. | サイドバーのフッターアカウントを作成してみよう |
+| 17. | サイドバーフッターをCSSでスタイリングしてみよう |
+| 18. | Googlefontで全体の文字フォントを変更してみよう |
+| 19. |  Discordチャットコンポーネントを作成してみよう |
+| 20. | チャットヘッダーを作成してみよう |
+| 21. | チャットヘッダーをCSSでスタイリングしてみよう |
+| 22. | Discordチャット送信のHTMLとCSSを実装してみよう |
+| 23. | チャットメッセージコンポーネントを作成してみよう |
+| 24. | 【補足】HTMLとCSSを記述するときの考え方について |
+| 25. | 【補足】Discordアイコンを追加しよう | -->
 
-In the project directory, you can run:
+</details>
 
-### `npm start`
+<details>
+<summary>セクション4: 【Discordクローン】バックエンド開発編（Firebase＆Redux実装編） </summary>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| NO | 内容 |
+| ---- | ---- |
+<!-- | 26. | Firebaseの準備をはじめよう |
+| 27. | Firebaseの初期設定をはじめよう |
+| 28. | ReduxをTypescriptで用意してみよう |
+| 29. | StoreとuserSliceを準備してみよう |
+| 30. | ユーザーの初期状態をTypescriptで準備してみよう |
+| 31. | Providerを使ってアプリ全体でstoreが使える状態にしよう |
+| 32. | ログイン用ページを作成してみよう |
+| 33. | 型付きのuseSelectorとuseDispatchを準備しよう |
+| 34. | Firebaseを使ってGoogleログイン機能を実装してみよう |
+| 35. | ログインしたユーザー情報をStoreに通知して状態更新しよう |
+| 36. | ログアウト機能とログインしたユーザー情報をUIに反映させよう |
+| 37. | 【補足】Redux DevToolsプラグインでstate状態を視覚的に確認してみよう | -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+</details>
