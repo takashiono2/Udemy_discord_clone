@@ -1,8 +1,8 @@
 .sidebar {
   display: flex;
-  flex: 0.35;
+  flex: 0.3;
   height: 100vh;
-  background-color: #33363d;
+  // background-color: #33363d;
 
   .sidebarLeft {
     display: flex;
@@ -14,7 +14,7 @@
     .sidebarIcon {
       width: 60px;
       height: 60px;
-      background-color: gray;
+      background-color: #33663d;
       border-radius: 9999px;
       margin-bottom: 10px;
       position: relative;
@@ -30,36 +30,77 @@
     }
   }
 
-    .sidebarRight {
-      background-color: #2b2d33;
-      width: 300px;
+  .sidebarRight {
+    background-color: #2b2d33;
+    width: 300px;
+    position: relative;
+    flex-grow:1;
 
-      .sidebarTop {
-        color: #ffffff;
+    .sidebarTop {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .sidebarChannels {
+      padding: 13px;
+
+      .sidebarChannelsHeader {
+        color: white;
         display: flex;
+        // アイコンを両幅均等に;
         align-items: center;
-        justify-content: space-between;
-        padding: 20px;
-      }
+        margin-top: 5px;
 
-      .sidebarChannels {
-        padding: 13px;
-
-        .sidebarChannelsHeader {
-          color: white;
+        .sidebarHeader {
           display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-top: 5px;
+        }
 
-          .sidebarHeader {
-            display: flex;
-          }
-
-          .sidebarAddIcon {
-            cursor: pointer;
-          }
+        .sidebarAddIcon {
+          cursor: pointer;
         }
       }
     }
+
+    .sidebarFooter {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 93%;
+      padding-bottom: 10px;
+      margin-left: -3px;
+
+      .sidebarAcconut {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 60px;
+        }
+
+        .accounName {
+          margin-left: 5px;
+
+          h4 {
+            color: white;
+            font-weight: 500px;
+          }
+
+          span {
+            color: #686a6e;
+          }
+        }
+      }
+      .sidebarVoice{
+        display: flex;
+        align-items: center;
+        color: #686a6e;
+      }
+
     }
+  }
+}
