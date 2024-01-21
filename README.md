@@ -31,11 +31,11 @@
 
 | NO | 内容 |
 | ---- | ---- |
-<!-- | 26. | Firebaseの準備をはじめよう |
+| 26. | Firebaseの準備をはじめよう |
 | 27. | Firebaseの初期設定をはじめよう |
 | 28. | ReduxをTypescriptで用意してみよう |
 | 29. | StoreとuserSliceを準備してみよう |
-| 30. | ユーザーの初期状態をTypescriptで準備してみよう |
+<!-- | 30. | ユーザーの初期状態をTypescriptで準備してみよう |
 | 31. | Providerを使ってアプリ全体でstoreが使える状態にしよう |
 | 32. | ログイン用ページを作成してみよう |
 | 33. | 型付きのuseSelectorとuseDispatchを準備しよう |
