@@ -12,7 +12,7 @@ const ChatHeader = () => {
     <div className="chatHeader">
       <div className="chatHeaderLeft">
         <h3>
-          <span className="chatHeaderHash">#Udemy</span>
+          <span className="chatHeaderHash">#</span>Udemy
         </h3>
       </div>
       <div className="chatHeaderRight">
