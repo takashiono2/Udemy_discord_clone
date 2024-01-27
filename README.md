@@ -35,11 +35,11 @@
 | 27. | Firebaseの初期設定をはじめよう |
 | 28. | ReduxをTypescriptで用意してみよう |
 | 29. | StoreとuserSliceを準備してみよう |
-<!-- | 30. | ユーザーの初期状態をTypescriptで準備してみよう |
+| 30. | ユーザーの初期状態をTypescriptで準備してみよう |
 | 31. | Providerを使ってアプリ全体でstoreが使える状態にしよう |
 | 32. | ログイン用ページを作成してみよう |
 | 33. | 型付きのuseSelectorとuseDispatchを準備しよう |
-| 34. | Firebaseを使ってGoogleログイン機能を実装してみよう |
+<!-- | 34. | Firebaseを使ってGoogleログイン機能を実装してみよう |
 | 35. | ログインしたユーザー情報をStoreに通知して状態更新しよう |
 | 36. | ログアウト機能とログインしたユーザー情報をUIに反映させよう |
 | 37. | 【補足】Redux DevToolsプラグインでstate状態を視覚的に確認してみよう | -->
