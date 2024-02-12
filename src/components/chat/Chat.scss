@@ -3,9 +3,11 @@
   flex-direction: column;
   flex-grow: 1;
   background-color: #33363d;
+  height: 100vh;
 
   .chatMessage{
-    flex-grow: 1;
+    height: 100vh;
+    overflow: hidden;
   }
 
   .chatInput{
@@ -27,6 +29,7 @@
         outline: white;
         font-size:large;
         width: 100%;
+        color: white;
       }
       .chatInputbutton{
         display: none;

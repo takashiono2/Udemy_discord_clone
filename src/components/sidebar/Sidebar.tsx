@@ -18,7 +18,6 @@ const Sidebar = () => {
     let channelName: string | null = prompt("新しいチャンネルを作成します");
 
     if(channelName){
-      console.log(channelName);
       await addDoc(collection(db,"channels"),{
         channelName: channelName,
       });

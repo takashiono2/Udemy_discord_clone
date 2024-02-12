@@ -11,7 +11,7 @@ type Props={
   channelName: string | null
 };
 const ChatHeader = (props: Props) => {
-  const {channelName} = props
+  const { channelName } = props;
   return (
     <div className="chatHeader">
       <div className="chatHeaderLeft">
